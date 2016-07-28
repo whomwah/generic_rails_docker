@@ -3,7 +3,7 @@ MAINTAINER duncan@kyan.com
 ENV REFRESHED_AT 2016-07-27
 
 # Setup specifc Envs
-ENV RUBY_CONFIGURE_OPTS --disable-install-doc
+ENV RUBY_CONFIGURE_OPTS=--disable-install-doc
 
 # Locales
 RUN locale-gen en_GB.UTF-8 \
