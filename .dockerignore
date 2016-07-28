@@ -1,5 +1,4 @@
-tmp/*
-log/*
-.git
-.env
-vendor
+*
+!.github_priv
+!Gemfile
+!Gemfile.lock
