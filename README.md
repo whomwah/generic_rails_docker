@@ -19,6 +19,8 @@ development:
   password:
 ```
 
+You'll also need to update the `POSTGRES_DB` in `docker-compose.yml` to match your database.
+
 You should be able to run:
 
 ```
